@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Apartment in Sydney CBD",
+    "description": "Stunning 2-bedroom apartment with harbour views in the heart of Sydney",
+    "price": 850000,
+    "type": "apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "carSpaces": 1,
+    "landSize": null,
+    "address": {
+      "street": "123 George Street",
+      "suburb": "Sydney",
+      "city": "Sydney",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "Australia"
+    },
+    "features": [
+      "Harbour views",
+      "Balcony",
+      "Gym access",
+      "Swimming pool",
+      "Security parking"
+    ],
+    "images": [
+      "https://example.com/property1-1.jpg",
+      "https://example.com/property1-2.jpg"
+    ],
+    "listedDate": "2024-10-15",
+    "agent": {
+      "name": "Sarah Johnson",
+      "phone": "+61 2 9876 5432",
+      "email": "sarah@realestate.com.au"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Spacious Family Home in Melbourne",
+    "description": "Beautiful 4-bedroom house with large backyard in leafy suburb",
+    "price": 1250000,
+    "type": "house",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "carSpaces": 2,
+    "landSize": 650,
+    "address": {
+      "street": "45 Oak Avenue",
+      "suburb": "Brighton",
+      "city": "Melbourne",
+      "state": "VIC",
+      "postcode": "3186",
+      "country": "Australia"
+    },
+    "features": [
+      "Backyard",
+      "Outdoor entertaining area",
+      "Modern kitchen",
+      "Master bedroom with ensuite",
+      "Double garage"
+    ],
+    "images": [
+      "https://example.com/property2-1.jpg",
+      "https://example.com/property2-2.jpg"
+    ],
+    "listedDate": "2024-10-20",
+    "agent": {
+      "name": "Michael Chen",
+      "phone": "+61 3 9876 5432",
+      "email": "michael@realestate.com.au"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Luxury Penthouse Brisbane",
+    "description": "Exclusive 3-bedroom penthouse with river views and premium finishes",
+    "price": 1850000,
+    "type": "penthouse",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "carSpaces": 2,
+    "landSize": null,
+    "address": {
+      "street": "789 Queen Street",
+      "suburb": "Brisbane City",
+      "city": "Brisbane",
+      "state": "QLD",
+      "postcode": "4000",
+      "country": "Australia"
+    },
+    "features": [
+      "River views",
+      "Rooftop terrace",
+      "Private lift",
+      "Wine cellar",
+      "Smart home technology"
+    ],
+    "images": [
+      "https://example.com/property3-1.jpg",
+      "https://example.com/property3-2.jpg"
+    ],
+    "listedDate": "2024-10-25",
+    "agent": {
+      "name": "Emma Wilson",
+      "phone": "+61 7 9876 5432",
+      "email": "emma@realestate.com.au"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Coastal Villa Perth",
+    "description": "Stunning beachfront property with ocean views and modern design",
+    "price": 2100000,
+    "type": "house",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "carSpaces": 3,
+    "landSize": 800,
+    "address": {
+      "street": "12 Ocean Drive",
+      "suburb": "Cottesloe",
+      "city": "Perth",
+      "state": "WA",
+      "postcode": "6011",
+      "country": "Australia"
+    },
+    "features": [
+      "Ocean views",
+      "Direct beach access",
+      "Infinity pool",
+      "Outdoor kitchen",
+      "Triple garage"
+    ],
+    "images": [
+      "https://example.com/property4-1.jpg",
+      "https://example.com/property4-2.jpg"
+    ],
+    "listedDate": "2024-10-18",
+    "agent": {
+      "name": "David Brown",
+      "phone": "+61 8 9876 5432",
+      "email": "david@realestate.com.au"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Charming Townhouse Adelaide",
+    "description": "Contemporary 3-bedroom townhouse in sought-after location",
+    "price": 650000,
+    "type": "townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "carSpaces": 2,
+    "landSize": 200,
+    "address": {
+      "street": "67 Park Terrace",
+      "suburb": "North Adelaide",
+      "city": "Adelaide",
+      "state": "SA",
+      "postcode": "5006",
+      "country": "Australia"
+    },
+    "features": [
+      "Courtyard",
+      "Open plan living",
+      "Walk to CBD",
+      "Low maintenance",
+      "Split system heating/cooling"
+    ],
+    "images": [
+      "https://example.com/property5-1.jpg",
+      "https://example.com/property5-2.jpg"
+    ],
+    "listedDate": "2024-10-22",
+    "agent": {
+      "name": "Lisa Anderson",
+      "phone": "+61 8 8876 5432",
+      "email": "lisa@realestate.com.au"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Studio Apartment Sydney",
+    "description": "Affordable studio in vibrant inner-city location",
+    "price": 420000,
+    "type": "studio",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "carSpaces": 0,
+    "landSize": null,
+    "address": {
+      "street": "234 Crown Street",
+      "suburb": "Surry Hills",
+      "city": "Sydney",
+      "state": "NSW",
+      "postcode": "2010",
+      "country": "Australia"
+    },
+    "features": [
+      "Near public transport",
+      "Cafes and restaurants nearby",
+      "Built-in wardrobes",
+      "Air conditioning"
+    ],
+    "images": [
+      "https://example.com/property6-1.jpg",
+      "https://example.com/property6-2.jpg"
+    ],
+    "listedDate": "2024-10-28",
+    "agent": {
+      "name": "James Lee",
+      "phone": "+61 2 9876 1234",
+      "email": "james@realestate.com.au"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Country Estate Yarra Valley",
+    "description": "Breathtaking 6-bedroom estate on 10 acres with vineyard views",
+    "price": 3500000,
+    "type": "house",
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "carSpaces": 4,
+    "landSize": 40000,
+    "address": {
+      "street": "88 Vineyard Road",
+      "suburb": "Healesville",
+      "city": "Melbourne",
+      "state": "VIC",
+      "postcode": "3777",
+      "country": "Australia"
+    },
+    "features": [
+      "Vineyard views",
+      "Tennis court",
+      "Guest house",
+      "Wine cellar",
+      "Heated pool"
+    ],
+    "images": [
+      "https://example.com/property7-1.jpg",
+      "https://example.com/property7-2.jpg"
+    ],
+    "listedDate": "2024-10-12",
+    "agent": {
+      "name": "Sophie Martin",
+      "phone": "+61 3 9876 9999",
+      "email": "sophie@realestate.com.au"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Modern Unit Gold Coast",
+    "description": "Brand new 2-bedroom unit close to beaches and entertainment",
+    "price": 580000,
+    "type": "apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "carSpaces": 1,
+    "landSize": null,
+    "address": {
+      "street": "15 Surfers Paradise Boulevard",
+      "suburb": "Surfers Paradise",
+      "city": "Gold Coast",
+      "state": "QLD",
+      "postcode": "4217",
+      "country": "Australia"
+    },
+    "features": [
+      "Beach access",
+      "Resort facilities",
+      "Balcony",
+      "Air conditioning",
+      "Secure parking"
+    ],
+    "images": [
+      "https://example.com/property8-1.jpg",
+      "https://example.com/property8-2.jpg"
+    ],
+    "listedDate": "2024-10-26",
+    "agent": {
+      "name": "Chris Taylor",
+      "phone": "+61 7 5555 5432",
+      "email": "chris@realestate.com.au"
+    }
+  }
+]
