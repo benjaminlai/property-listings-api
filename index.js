@@ -35,18 +35,24 @@ app.get('/api/properties', (req, res) => {
   // Filter by price range
   if (req.query.minPrice) {
     const minPrice = parseFloat(req.query.minPrice);
-    filteredProperties = filteredProperties.filter(p => p.price >= minPrice);
+    if (!isNaN(minPrice)) {
+      filteredProperties = filteredProperties.filter(p => p.price >= minPrice);
+    }
   }
   
   if (req.query.maxPrice) {
     const maxPrice = parseFloat(req.query.maxPrice);
-    filteredProperties = filteredProperties.filter(p => p.price <= maxPrice);
+    if (!isNaN(maxPrice)) {
+      filteredProperties = filteredProperties.filter(p => p.price <= maxPrice);
+    }
   }
   
   // Filter by bedrooms
   if (req.query.bedrooms) {
     const bedrooms = parseInt(req.query.bedrooms);
-    filteredProperties = filteredProperties.filter(p => p.bedrooms >= bedrooms);
+    if (!isNaN(bedrooms) && bedrooms > 0) {
+      filteredProperties = filteredProperties.filter(p => p.bedrooms >= bedrooms);
+    }
   }
   
   // Filter by type
@@ -162,7 +168,7 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({
     error: 'Internal server error',
-    message: err.message
+    message: process.env.NODE_ENV === 'production' ? 'An error occurred' : err.message
   });
 });
 
