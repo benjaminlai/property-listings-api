@@ -66,9 +66,9 @@
     ],
     "listedDate": "2024-10-20",
     "agent": {
-      "name": "Michael Chen",
+      "name": "Benjamin Lai",
       "phone": "+61 3 9876 5432",
-      "email": "michael@realestate.com.au"
+      "email": "blai@realestate.com.au"
     }
   },
   {
@@ -102,9 +102,9 @@
     ],
     "listedDate": "2024-10-25",
     "agent": {
-      "name": "Emma Wilson",
+      "name": "Benjamin Lai",
       "phone": "+61 7 9876 5432",
-      "email": "emma@realestate.com.au"
+      "email": "blai@realestate.com.au"
     }
   },
   {
@@ -138,9 +138,9 @@
     ],
     "listedDate": "2024-10-18",
     "agent": {
-      "name": "David Brown",
+      "name": "Benjamin Lai",
       "phone": "+61 8 9876 5432",
-      "email": "david@realestate.com.au"
+      "email": "blai@realestate.com.au"
     }
   },
   {
@@ -174,9 +174,9 @@
     ],
     "listedDate": "2024-10-22",
     "agent": {
-      "name": "Lisa Anderson",
+      "name": "Benjamin Lai",
       "phone": "+61 8 8876 5432",
-      "email": "lisa@realestate.com.au"
+      "email": "blai@realestate.com.au"
     }
   },
   {
@@ -209,9 +209,9 @@
     ],
     "listedDate": "2024-10-28",
     "agent": {
-      "name": "James Lee",
+      "name": "Benjamin Lai",
       "phone": "+61 2 9876 1234",
-      "email": "james@realestate.com.au"
+      "email": "blai@realestate.com.au"
     }
   },
   {
@@ -245,13 +245,43 @@
     ],
     "listedDate": "2024-10-12",
     "agent": {
-      "name": "Sophie Martin",
+      "name": "Benjamin Lai",
       "phone": "+61 3 9876 9999",
-      "email": "sophie@realestate.com.au"
+      "email": "blai@realestate.com.au"
     }
   },
   {
     "id": 8,
+    "title": "Prized Cremorne Location",
+    "description": "Huge office space",
+    "price": 35000000,
+    "type": "office",
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "carSpaces": 4,
+    "landSize": 40000,
+    "address": {
+      "street": "600 Church Street",
+      "suburb": "Cremorne",
+      "city": "Melbourne",
+      "state": "VIC",
+      "postcode": "3121",
+      "country": "Australia"
+    },
+    "features": ["Meeting Rooms", "View of REA"],
+    "images": [
+      "https://example.com/property7-1.jpg",
+      "https://example.com/property7-2.jpg"
+    ],
+    "listedDate": "2024-10-12",
+    "agent": {
+      "name": "Benjamin Lai",
+      "phone": "+61 3 9876 9999",
+      "email": "blai@realestate.com.au"
+    }
+  },
+  {
+    "id": 9,
     "title": "Modern Unit Gold Coast",
     "description": "Brand new 2-bedroom unit close to beaches and entertainment",
     "price": 580000,
@@ -281,9 +311,39 @@
     ],
     "listedDate": "2024-10-26",
     "agent": {
-      "name": "Chris Taylor",
+      "name": "Benjamin Lai",
       "phone": "+61 7 5555 5432",
-      "email": "chris@realestate.com.au"
+      "email": "blai@realestate.com.au"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Sydney HQ Office Space",
+    "description": "Brand new office space",
+    "price": 5800000,
+    "type": "office",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "carSpaces": 1,
+    "landSize": null,
+    "address": {
+      "street": "100 Harris Street",
+      "suburb": "Pyrmont",
+      "city": "Sydney",
+      "state": "NSW",
+      "postcode": "2009",
+      "country": "Australia"
+    },
+    "features": ["Decent Coffee", "Nice floor plan"],
+    "images": [
+      "https://example.com/property8-1.jpg",
+      "https://example.com/property8-2.jpg"
+    ],
+    "listedDate": "2024-10-26",
+    "agent": {
+      "name": "Benjamin Lai",
+      "phone": "+61 7 5555 5432",
+      "email": "blai@realestate.com.au"
     }
   }
 ]
